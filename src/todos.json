@@ -1,0 +1,34 @@
+{
+    "todos":[
+        {
+            "title": "Task 1",
+            "responsible" : "Mark",
+            "description": "lorem inpsum 1",
+            "priority": "low"
+        },
+        {
+            "title": "Task 2",
+            "responsible" : "Elisa",
+            "description": "lorem inpsum 2",
+            "priority": "medium"
+        },
+        {
+            "title": "Task 3",
+            "responsible" : "Voldemord",
+            "description": "conseguir una nariz",
+            "priority": "high"
+        },
+        {
+            "title": "Task 4",
+            "responsible" : "Bulma",
+            "description": "lorem inpsum",
+            "priority": "low"
+        },
+        {
+            "title": "Task 5",
+            "responsible" : "Luna",
+            "description": "lorem inpsum",
+            "priority": "medium"
+        }
+    ]
+}

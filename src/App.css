@@ -1,9 +1,23 @@
+:root{
+  --color-celeste: #61dafb;
+  --color-gris: #282c34;
+  --color-negro: #222;
+  --color-blanco: #eee;
+}
+
+body{
+  background-color: var(--color-gris);
+  color: var(--color-blanco);
+}
+
+/* logo de react --------------- */
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  max-width: 80vmin;
   pointer-events: none;
 }
 
@@ -13,26 +27,133 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
+}
+
+
+/* mi class ------------------- */
+
+/* nav -----------*/
+
+.mi-class__logo{
+  height: 50px;
+  width: 80px;
+}
+
+.mi-class__nav{
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+
+.mi-class__nav-ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.mi-class__nav-linea{
+  background-color: var(--color-blanco);
+  height: 1px;
+  flex: 1 1;
+  opacity: .5;
+}
+
+.mi-class__ntarea{
+  background-color: var(--color-gris);
+  color: var(--color-celeste);
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.mi-class__agregar-t:hover{
+  color: var(--color-celeste);
+  cursor: pointer;
+}
+
+/* background ---------- */
+
+.mi-class__background{
+  position: absolute;
+  right: calc(50% - 40vmin);
+  z-index: -1;
+  opacity: .5;
+}
+
+/* cards -------------  */
+
+.mi-class__container-cards{
+  padding: 0 30px;
+}
+
+.mi-class__priority{
+  display: block;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.mi-class__low{
+  background-color: rgb(63, 170, 63);
+}
+.mi-class__medium{
+  background-color: rgb(168, 170, 63);
+}
+.mi-class__high{
+  background-color: rgb(170, 67, 63);
+}
+
+/* form ---------------------- */
+
+.mi-class__form-f{
+  width: 50vw;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%) translateY(-50%);
+  overflow: hidden;
+  border: none;
+  height: 0;
+}
+
+.mi-class__form-d{
+  position: relative;
+  padding: 40px 30px 20px;
+}
+
+.btn{
+  background-color: var(--color-celeste);
+  border: none;
+}
+
+.mi-class__button-x{
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  outline-color: rgba(201, 21, 21, 0.315);
+  border:  none;
+}
+
+.mi-class__button-x:hover{
+  background-color: rgb(201, 21, 21);
+  color: var(--color-negro);
+}
+
+.form-group{
+  margin: 10px 0;
+}
+
+.mi-class__button-s{
+  display: block;
+  width: 100%;
+  padding: 8px;
 }
